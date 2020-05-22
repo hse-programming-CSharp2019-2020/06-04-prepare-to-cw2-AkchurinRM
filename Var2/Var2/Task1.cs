@@ -23,7 +23,7 @@ namespace Task1
 
         static Random rnd = new Random();
 
-        static string RndName()
+        static string RndName() 
         {
             int Name_length = rnd.Next(5, 16);
             string Name = $"{(char)rnd.Next('A', 'Z' + 1)}";
